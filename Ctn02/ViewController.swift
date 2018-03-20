@@ -29,5 +29,8 @@ class ViewController: UIViewController {
         value = 0
         myLabel.text = String(value)
     }
+    @IBAction func changeColor(_ sender: Any) {
+        view.backgroundColor = UIColor.yellow
+    }
 }
 
